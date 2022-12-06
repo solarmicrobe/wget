@@ -57,7 +57,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           flavor: |
             latest=auto
-            prefix=alpine,onlatest=false
+            prefix=alpine-
             suffix=
           tags: |
             type=schedule
