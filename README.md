@@ -1,3 +1,5 @@
+[![Docker Repository on Quay](https://quay.io/repository/jometzner/wget/status "Docker Repository on Quay")](https://quay.io/repository/jometzner/wget)
+
 # Purpose
 
 Executes wget in a timeboxed fashion. That means it uses `timeout` to run `wget` with a time limit of x seconds.
